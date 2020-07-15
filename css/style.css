@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #666;
+    line-height: 25px;
+}
+
+
+/******************* header start********************/
+
+
+/* 导航栏 start */
+
+.navbar-light .navbar-nav .active>.active-color {
+    color: #00B4D9;
+}
+
+.navigation-color a {
+    color: #333333;
+}
+
+
+/* 导航栏 end */
+
+
+/* banner部分 start*/
+
+.jumbotron-bg {
+    background: url(../img/banner.jpg)no-repeat;
+    background-position: 100% -60px;
+    height: 620px;
+}
+
+.jumbotron-bg div h1,
+p {
+    text-align: center;
+}
+
+.my-name {
+    font-weight: bold;
+}
+
+.banner-bg {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 620px;
+    margin-top: -63px;
+}
+
+.banner-bg div {
+    color: #fff;
+    padding-top: 100px;
+}
+
+
+/* banner部分 end*/
+
+
+/******************* header end********************/
+
+
+/******************* container start********************/
+
+
+/* 个人介绍 start */
+
+.recommend-mian {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 65px;
+}
+
+.recommend-mian li:first-child {
+    font-size: 38px;
+    font-weight: 700;
+    color: #676767;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.recommend-mian span {
+    color: #050505;
+    font-weight: bold;
+}
+
+.recommend-mian li {
+    color: #676767;
+    margin-top: 12px;
+}
+
+.recommend img {
+    padding: 7px 7px;
+    height: 100%;
+}
+
+
+/* 个人介绍 end */
+
+
+/* 胜任岗位 start */
+
+.me-do {
+    background-color: #F0F0F0;
+    margin-top: 80px;
+    float: left;
+    width: 100%;
+}
+
+.me-do h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+    padding-top: 55px;
+}
+
+.box-mian svg {
+    font-size: 45px;
+    color: #00b4d9;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.box-mian p:last-child {
+    margin-top: 18px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.me-do-mian div {
+    width: 256px;
+    height: 280px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+/* 胜任岗位 end */
+
+
+/* 教育 经验 start */
+
+.edu-icon {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    background-color: #01B4D9;
+    border-radius: 50%;
+    float: left;
+}
+
+.education h5 {
+    padding: 13px 0px 13px 80px;
+}
+
+.edu-mian {
+    background: #F2F2F2;
+    padding: 19px 18px 1px 21px;
+    margin-top: 18px;
+}
+
+.deu-left {
+    width: 45%;
+    float: left;
+}
+
+.deu-right {
+    width: 45%;
+    float: right;
+}
+
+.edu-top {
+    margin-top: 80px;
+}
+
+.education p {
+    text-align: left;
+}
+
+
+/* 教育 经验 end */
+
+
+/* 我的作品 start */
+
+.production {
+    background-color: #F2F2F2;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 55px;
+}
+
+.production h1 {
+    text-align: center;
+    color: #252525;
+    padding-top: 55px;
+}
+
+.production-mian .nav-link.active {
+    color: #fff;
+    background-color: #00B4D9;
+}
+
+.production-mian li a {
+    color: #00B4D9;
+}
+
+.photography img {
+    margin-left: 20px;
+}
+
+
+/* 我的作品 end */
+
+
+/******************* container end********************/
+
+
+/******************* footer start********************/
+
+.footer {
+    background-color: #1C1C20;
+    color: #FEFEFE;
+    height: 130px;
+    float: left;
+    line-height: 130px;
+    margin-top: 70px;
+}
+
+
+/******************* footer end********************/
